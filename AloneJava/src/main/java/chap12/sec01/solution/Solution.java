@@ -22,6 +22,10 @@ public class Solution {
      * 정수 n과 k가 주어졌을 때,
      * 1 이상 n이하의 정수 중에서
      * k의 배수를 오름차순으로 저장한 배열을 return 하는 solution 함수를 완성해 주세요.
+     * 입출력 예
+     * n	k	result
+     * 10	3	[3, 6, 9]
+     * 15	5	[5, 10, 15]
      * @param n
      * @param k
      * @return
@@ -32,10 +36,28 @@ public class Solution {
 //        k의 배수만 넣기 : add()
         for (int i = 1; i <= n; i++) {
             if(i % k == 0) {
+//              i값 추적 : 로깅(디버깅의 기초)
+//               i의 변하는 값을 화면에 결과 출력 : sout
+//                System.out.println("[i] "+i); // i 의 값 추적
                 answer.add(i); // i k의 배수임
             }
         }
-
         return answer;
+    }
+
+
+        public int solution(int[] num_list) {
+            int answer = 0;
+            String a = null;
+            String b = null;
+            for (int i = 0; i < num_list.length; i++) {
+                if (num_list[i] % 2 == 0) {
+                    a += "num_list[i]";
+                } else {
+                    b += "num_list[i]";
+                }
+                answer = Integer.parseInt(a) + Integer.parseInt(b);
+            }
+            return answer;
     }
 }

@@ -14,14 +14,14 @@ package chap06.sec03.exam03;
  * 2023-09-20         GGG          최초 생성
  */
 public class Car {
-    //    TODO: 속성(필드), 생성자함수, 함수(메소드)
+//    TODO: 속성(필드), 생성자함수, 함수(메소드)
 //    속성
     String company = "현대자동차";    // 제조사
     String model;   // 자동차 모델(SUV, 세단)
     String color;   // 자동차 색깔
     int maxSpeed;   // 최고속도
 
-    //    기본 생성자
+//    기본 생성자
     public Car(){}
 
 //    매개변수 1개짜리 생성자
@@ -37,12 +37,18 @@ public class Car {
         this.color = color;
     }
 
+//    매개변수 3개짜리 생성자
+//    자동화 기능 이용 : alt + insert => 생성자 속성 선택 후 확인
     public Car(String model, String color, int maxSpeed) {
         this.model = model;
         this.color = color;
         this.maxSpeed = maxSpeed;
     }
+
+
+//
 }
+
 
 
 

@@ -5,7 +5,7 @@ package chap06.sec03.exam03;
  * fileName : CarApplication
  * author : GGG
  * date : 2023-09-20
- * description :
+ * description : 실행 클래스(main)
  * 요약 :
  * <p>
  * ===========================================================
@@ -18,10 +18,11 @@ public class CarApplication {
 //        객체 생성 : 모든 생성자 이용하기
         Car car1 = new Car(); // 기본 생성자
         Car car2 = new Car("자가용"); // 매개변수 1개짜리 생성자
-        Car car3 = new Car("자가용","빨강"); // 매개변수 2개짜리 생성자
-        Car car4 = new Car("자가용","빨강",200); // 매개변수 3개짜리 생성자
+        Car car3 = new Car("자가용", "빨강"); // 매개변수 2개짜리 생성자
+        // 매개변수 3개짜리 생성자
+        Car car4 = new Car("자가용", "빨강", 200);
 
-//        결과 출력 : 2개
+//        결과 출력 : 2개 , 기본생성자 vs 4개 생성자
         System.out.println(car1.color);
         System.out.println(car1.company);
         System.out.println(car1.maxSpeed);
@@ -31,6 +32,5 @@ public class CarApplication {
         System.out.println(car4.company);
         System.out.println(car4.maxSpeed);
         System.out.println(car4.model);
-
     }
 }

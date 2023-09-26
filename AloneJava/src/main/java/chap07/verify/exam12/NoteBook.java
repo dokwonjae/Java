@@ -14,13 +14,14 @@ package chap07.verify.exam12;
  * 2023-09-22         GGG          최초 생성
  */
 public class NoteBook extends Computer{
+//    alt + insert : 메소드 구현
     @Override
     public void display() {
-        System.out.println("NoteBook Display");
+        System.out.println("NoteBook Display()");
     }
 
     @Override
     public void typing() {
-        System.out.println("NoteBook Typing");
+        System.out.println("NoteBook Typing()");
     }
 }

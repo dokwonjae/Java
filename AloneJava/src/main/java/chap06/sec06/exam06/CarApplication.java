@@ -24,10 +24,12 @@ public class CarApplication {
 
 //        올바른 속도 변경 : 60
         car.setSpeed(60);
+
 //        멈춤
-        if(!car.isStop()) { // 자동차 상태 읽기
+        if(!car.isStop()) {  // 자동차 상태 읽기
             car.setStop(true); // 자동차 멈춤
         }
         System.out.println("현재 속도 : " + car.getSpeed()); // 현재 속도 읽기
+
     }
 }

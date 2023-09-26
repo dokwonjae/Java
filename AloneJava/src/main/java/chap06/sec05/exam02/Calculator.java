@@ -14,7 +14,7 @@ package chap06.sec05.exam02;
  * 2023-09-21         GGG          최초 생성
  */
 public class Calculator {
-    //    정적(공유) 속성
+//    정적(공유) 속성
 //    static 접근제한자 리턴자료형 함수명(){} : 정적 함수
 //    TODO: 정적(공유) 속성 변수
 //         사용법 : static 자료형 속성명;

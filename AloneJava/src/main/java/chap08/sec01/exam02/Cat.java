@@ -14,7 +14,7 @@ package chap08.sec01.exam02;
  * 2023-09-22         GGG          최초 생성
  */
 public class Cat implements Soundable{
-    //    메소드 구현 : alt + insert : 야옹
+//    메소드 구현 : alt + insert : 야옹
     @Override
     public String sound() {
         return "야옹";

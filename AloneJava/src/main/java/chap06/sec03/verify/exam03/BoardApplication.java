@@ -5,7 +5,7 @@ package chap06.sec03.verify.exam03;
  * fileName : BoardApplication
  * author : GGG
  * date : 2023-09-20
- * description :
+ * description : 실행 클래스
  * 요약 :
  * <p>
  * ===========================================================
@@ -14,7 +14,6 @@ package chap06.sec03.verify.exam03;
  * 2023-09-20         GGG          최초 생성
  */
 public class BoardApplication {
-
     public static void main(String[] args) {
         Board board = new Board("제목");
         Board board2 = new Board("제목", "내용");

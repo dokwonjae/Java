@@ -15,11 +15,12 @@ package chap07.verify.exam07;
  */
 // 문제 : 아래 실행클래스의 실행 결과와 부모클래스 Printer 객체를 확인하고,
 //        LaserPrinter 자식 객체를 디자인(코딩)하세요
+//  TODO: 힌트 : 상속 + 오버라이딩(함수 재정의) 이용
 // 결과 :
 //    전원켜기
-//            기본 프린터 입니다. 기본사양으로 프린팅합니다.
-//            레이저프린터로 프린트합니다. 고급 사양으로 프린팅합니다.
-//            전원끄기
+//    기본 프린터 입니다. 기본사양으로 프린팅합니다.
+//    레이저프린터로 프린트합니다. 고급 사양으로 프린팅합니다.
+//    전원끄기
 public class PrinterApplicaton {
     public static void main(String[] args) {
 //      부모 객체 생성
@@ -29,6 +30,7 @@ public class PrinterApplicaton {
 
 //      자식 객체 생성
         LaserPrinter laserPrinter = new LaserPrinter();
+//        TODO: print() 함수 재정의
         laserPrinter.print();    // "레이저프린터로 프린트합니다. 고급 사양으로 프린팅합니다."
         laserPrinter.powerOff();  // "전원끄기
     }

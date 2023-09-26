@@ -14,18 +14,14 @@ package chap07.verify.exam01;
  * 2023-09-21         GGG          최초 생성
  */
 public class Person {
+//    속성 정의
     int age;
     String name;
     int height;
     int weight;
 
-    void set() {
-
-    }
-
-
-
-    public void setWeight(int a) {
-        this.weight = a;
+//    weight 세터 : alt + insert
+    public void setWeight(int weight) {
+        this.weight = weight;
     }
 }

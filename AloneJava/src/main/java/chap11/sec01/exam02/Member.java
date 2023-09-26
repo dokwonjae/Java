@@ -21,14 +21,14 @@ import java.util.Objects;
  * 2023-09-25         GGG          최초 생성
  */
 public class Member {
-    //    속성
+//    속성
     public String id;
 
-    //    생성자
+//    생성자
     public Member(String id) {
         this.id = id;
     }
-    //    equals(), hashCode() 재정의 함수 : alt + insert
+//    equals(), hashCode() 재정의 함수 : alt + insert
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

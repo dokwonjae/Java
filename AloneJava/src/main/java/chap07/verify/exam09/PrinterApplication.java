@@ -1,6 +1,5 @@
 package chap07.verify.exam09;
 
-
 /**
  * packageName : chap07.verify.exam0106
  * fileName : PrinterApplication
@@ -21,9 +20,7 @@ package chap07.verify.exam09;
 //    전원켜기
 //    기본 프린터 입니다. 기본사양으로 프린팅합니다.
 //    레이저프린터로 업그레이드 했습니다.
-//    컬러프린터로 업그레이드 했습니다.
 //    전원끄기
-
 public class PrinterApplication {
     public static void main(String[] args) {
         //      부모 객체 생성
@@ -36,8 +33,8 @@ public class PrinterApplication {
         printer.print();    // "레이저프린터로 업그레이드 했습니다."
 
 //        속성의 다형성 이용 : 컬러 프린터로 변경
-        printer = new ColorPrinter();  // "컬러프린터로 업그레이드 했습니다."
-        printer.print();
+        printer = new ColorPrinter();
+        printer.print();      // "컬러프린터로 업그레이드 했습니다."
         printer.powerOff();  // "전원끄기
     }
 }

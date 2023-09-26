@@ -14,12 +14,12 @@ package chap06.sec03.exam02;
  * 2023-09-20         GGG          최초 생성
  */
 public class Korean {
-    //    TODO: 속성, 생성자함수, 함수(메소드)
+//    TODO: 속성, 생성자함수, 함수(메소드)
 //    속성
     String name;   // 이름
     String ssn;   // 주민번호
 
-    //    생성자함수
+//    생성자함수
     Korean(){};  // 기본생성자
 
     Korean(String strName, String strSsn){

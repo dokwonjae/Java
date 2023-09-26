@@ -14,7 +14,7 @@ package chap07.sec02.exam02;
  * 2023-09-22         GGG          최초 생성
  */
 public class Driver {
-    //    TODO: 부모 객체 = 자식 객체 (다형성)
+//    TODO: 부모 객체 = 자식 객체 (다형성)
 //        정의 : drive(부모클래스 부모객체){} => drive(자식객체);(실행시에)
 //          => 부모 객체 = 자식 객체 (형태)
     public void drive(Vehicle vehicle) {

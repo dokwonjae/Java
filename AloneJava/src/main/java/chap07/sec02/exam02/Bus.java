@@ -13,7 +13,8 @@ package chap07.sec02.exam02;
  * —————————————————————————————
  * 2023-09-22         GGG          최초 생성
  */
-public class Bus extends Vehicle {
+public class Bus extends Vehicle{
+//    run() 오버라이딩하세요 : alt + insert : "버스가 달립니다."
     @Override
     public void run() {
         System.out.println("버스가 달립니다.");

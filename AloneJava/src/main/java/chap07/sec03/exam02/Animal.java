@@ -17,7 +17,7 @@ public abstract class Animal {
     public String kind; // 종류(종)
 
     public void breathe() {
-        System.out.println("숨을 쉽니다");
+        System.out.println("숨을 쉽니다.");
     }
 //  TODO: 추상 함수 만들기
 //    사용법 : 접근제한자 abstract 리턴자료형 함수명();
@@ -25,3 +25,12 @@ public abstract class Animal {
 //    특징 : 자식클래스에서 무조건 오버라이딩 함수를 만들어야함
     public abstract void sound();
 }
+
+
+
+
+
+
+
+
+

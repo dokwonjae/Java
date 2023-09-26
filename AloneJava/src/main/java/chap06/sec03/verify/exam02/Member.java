@@ -17,7 +17,7 @@ public class Member {
     String id; // 회원 id
     String name; // 회원명
 
-    //    생성자 : 2
+//    생성자 : 2
     public Member(String name, String id) {
         this.id = id;
         this.name = name;

@@ -14,12 +14,12 @@ package chap07.sec03.exam02;
  * 2023-09-22         GGG          최초 생성
  */
 public class Dog extends Animal{
-    //    생성자 : 포유류
+//    생성자 : 포유류
     public Dog() {
         this.kind = "포유류";
     }
 
-    //    sound() : "멍멍" 함수 재정의(오버라이딩)
+//    sound() : "멍멍" 함수 재정의(오버라이딩)
     @Override
     public void sound() {
         System.out.println("멍멍");

@@ -13,14 +13,15 @@ package chap07.verify.exam12;
  * —————————————————————————————
  * 2023-09-22         GGG          최초 생성
  */
-public class DeskTop extends Computer {
+public class DeskTop extends Computer{
+//    alt + insert : 메소드 구현
     @Override
     public void display() {
-        System.out.println("DeskTop Display");
+        System.out.println("DeskTop Display()");
     }
 
     @Override
     public void typing() {
-        System.out.println("DeskTop Typing");
+        System.out.println("DeskTop Typing()");
     }
 }

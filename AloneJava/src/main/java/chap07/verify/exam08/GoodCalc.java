@@ -1,6 +1,5 @@
 package chap07.verify.exam08;
 
-
 /**
  * packageName : chap07.verify.exam08
  * fileName : GoodCalc
@@ -14,7 +13,9 @@ package chap07.verify.exam08;
  * —————————————————————————————
  * 2023-09-22         GGG          최초 생성
  */
-public class GoodCalc extends Calculator {
+public class GoodCalc extends Calculator{
+//    alt + insert
+
     @Override
     public int add(int a, int b) {
         return a + b;
@@ -28,9 +29,11 @@ public class GoodCalc extends Calculator {
     @Override
     public double average(int[] a) {
         double sum = 0;
+
         for (int i = 0; i < a.length; i++) {
-            sum += a[i];
+//            누적합
+            sum = sum + a[i];
         }
-        return (double) sum / (double) a.length;
+        return (double) sum / (double) a.length; // 평균
     }
 }

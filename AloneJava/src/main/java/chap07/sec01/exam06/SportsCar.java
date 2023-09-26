@@ -5,7 +5,7 @@ package chap07.sec01.exam06;
  * fileName : SportsCar
  * author : GGG
  * date : 2023-09-21
- * description :
+ * description : 자식 클래스
  * 요약 :
  * <p>
  * ===========================================================
@@ -15,10 +15,9 @@ package chap07.sec01.exam06;
  */
 public class SportsCar extends Car {
 //    함수 재정의 : speedUp() : alt + insert
-
     @Override
     public void speedUp() {
-        speed += 10; // 스포츠카 속도
+        speed += 10;  // 스포츠카 속도
     }
-//    TODO: 함수 재정의 : final void stop() : 재정의 안됨 : final 함수
+//  TODO: 함수 재정의 : final void stop() : 재정의 안됨 : final 함수
 }

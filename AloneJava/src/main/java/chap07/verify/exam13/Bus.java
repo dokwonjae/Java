@@ -14,7 +14,7 @@ package chap07.verify.exam13;
  * 2023-09-22         GGG          최초 생성
  */
 public class Bus implements Vehicle{
-    //    alt + insert : 메소드 구현(선택)
+//    alt + insert : 메소드 구현(선택)
     @Override
     public void run() {
         System.out.println("버스가 달립니다.");

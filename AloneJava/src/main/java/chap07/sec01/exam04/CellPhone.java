@@ -14,7 +14,7 @@ package chap07.sec01.exam04;
  * 2023-09-21         GGG          최초 생성
  */
 public class CellPhone {
-    //    공통속성
+//    공통속성
     String model; // 모델(삼성, 애플)
     String color; // 색깔
 
@@ -56,6 +56,7 @@ public class CellPhone {
         System.out.println("전화를 끊습니다.");
     }
 }
+
 
 
 

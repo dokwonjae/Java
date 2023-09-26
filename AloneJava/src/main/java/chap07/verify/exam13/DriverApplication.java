@@ -19,7 +19,7 @@ package chap07.verify.exam13;
 //    택시가 달립니다.
 public class DriverApplication {
     public static void main(String[] args) {
-        Driver driver = new Driver();
+        Driver driver = new Driver();  // 전략 클래스
 
         Bus bus = new Bus();
         Taxi taxi = new Taxi();

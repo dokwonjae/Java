@@ -5,7 +5,7 @@ package chap07.verify.exam07;
  * fileName : LaserPrinter
  * author : GGG
  * date : 2023-09-21
- * description :
+ * description : 자식 클래스
  * 요약 :
  * <p>
  * ===========================================================
@@ -13,8 +13,8 @@ package chap07.verify.exam07;
  * —————————————————————————————
  * 2023-09-21         GGG          최초 생성
  */
-public class LaserPrinter extends Printer {
-
+public class LaserPrinter extends Printer{
+//    함수 재정의 : alt + insert
     @Override
     public void print() {
         System.out.println("레이저프린터로 프린트합니다. 고급 사양으로 프린팅합니다.");

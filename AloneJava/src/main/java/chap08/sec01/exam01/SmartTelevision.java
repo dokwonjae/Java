@@ -15,7 +15,6 @@ package chap08.sec01.exam01;
  */
 public class SmartTelevision implements RemoteControl, Searchable {
 //    alt + insert : 메서드 구현(선택)
-
     @Override
     public void turnOn() {
         System.out.println("TV를 켭니다.");

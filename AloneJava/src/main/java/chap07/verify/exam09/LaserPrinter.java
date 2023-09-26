@@ -13,9 +13,10 @@ package chap07.verify.exam09;
  * —————————————————————————————
  * 2023-09-22         GGG          최초 생성
  */
-public class LaserPrinter extends Printer {
+public class LaserPrinter extends Printer{
+//    alt + insert
     @Override
     public void print() {
-        System.out.println("레이저프린터로 업그레이드 했습니다");
+        System.out.println("레이저프린터로 업그레이드 했습니다.");
     }
 }

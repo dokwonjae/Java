@@ -20,6 +20,7 @@ package chap07.verify.exam03;
 //     (10,20)
 public class PointApplication {
     public static void main(String[] args) {
+//        TODO: 생성자 오버로딩 (매개변수 기본생성자, 2개짜리 생성자), showPoint()
 //    객체 생성
         Point point = new Point(); // 기본생성자로 객체생성
         point.showPoint(); // (0,0) 출력

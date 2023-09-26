@@ -5,7 +5,7 @@ package chap07.verify.exam11;
  * fileName : Weapon
  * author : GGG
  * date : 2023-09-22
- * description :
+ * description : 부모 클래스
  * 요약 :
  * <p>
  * ===========================================================
@@ -14,7 +14,7 @@ package chap07.verify.exam11;
  * 2023-09-22         GGG          최초 생성
  */
 public class Weapon {
-    int fire() {
-      return 1;
+    int fire(){
+        return 1;
     }
 }

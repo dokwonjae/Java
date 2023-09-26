@@ -33,12 +33,21 @@ public class ComputerApplication {
         int result3 = computer.multi(value3);
         System.out.println("result3 : " + result3); // 6
 
-//      TODO: 새로운 ...연산자 사용하기
+//      TODO(참고): 새로운 ...연산자 사용하기
         int result4 = computer.sum2(1,2,3);
-        System.out.println("result4 : " +result4);
+        System.out.println("result4 : " + result4);
 
-        int result5 = computer.sum2(1,2,3,4,5,6);
+        int result5 = computer.sum2(1,2,3,5,6);
         System.out.println("result5 : " + result5);
-
     }
 }
+
+
+
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@ package chap07.sec02.exam02;
  * fileName : Vehicle
  * author : GGG
  * date : 2023-09-22
- * description :
+ * description : 부모 클래스
  * 요약 :
  * <p>
  * ===========================================================

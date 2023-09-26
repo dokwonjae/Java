@@ -18,13 +18,13 @@ package chap06.sec06.exam06;
  * 2023-09-21         GGG          최초 생성
  */
 public class Car {
-    //    TODO: 속성, 생성자, 함수(메소드)
+//    TODO: 속성, 생성자, 함수(메소드)
 //    속성(필드)
     private int speed; // 속도
     private boolean stop; // 상태
     int defaultValue;     // default 테스트 속성
 
-    //    생성자 생략
+//    생성자 생략
 //    TODO: 함수 : speed 속성 (setter/getter), stop(setter/getter) : alt + insert
     public int getSpeed() {
         return speed;

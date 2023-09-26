@@ -71,19 +71,22 @@ public class Sec0202 {
     }
 
     /**
-     * 실수 : float(4), double(8, ***)
+     * 실수 : float(4) , double(8, ***)
      */
     public void exam07() {
         float var2 = 3.14f; // float 사용시 끝에 f 붙임
-        double var3 = 3.14f; // double
-//      결고ㅓ : sout, 줄복사 : ctrl + d
+        double var3 = 3.14; // double
+//      결과 : sout , 줄복사 : ctrl + d
         System.out.println(var2);
         System.out.println(var3);
+
 //        e : 지수 표현식
         double var6 = 3e6; // 3000000.0
         double var7 = 2e-3; // 0.002
+//      결과 : sout , 줄복사 : ctrl + d
         System.out.println(var6);
         System.out.println(var7);
+
 
     }
 }

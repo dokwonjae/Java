@@ -14,10 +14,10 @@ package chap07.verify.exam05;
  * 2023-09-21         GGG          최초 생성
  */
 public class Penguin {
-    //    속성 정의
+//    속성 정의
     String name;
     String habitat;
-    //    setter/getter : alt + Insert
+//    setter/getter : alt + Insert
     public String getName() {
         return name;
     }
@@ -34,7 +34,7 @@ public class Penguin {
         this.habitat = habitat;
     }
 
-    //    함수 : showInfo()
+//    함수 : showInfo()
     void showInfo() {
         System.out.println(this.name + " 은 " + this.habitat + " 살아요!!!!");
     }

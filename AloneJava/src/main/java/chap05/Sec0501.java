@@ -50,11 +50,11 @@ public class Sec0501 {
 //        null 포인터 예외(에러)
 //         배열에서 null 에러
         int[] intArray = null; // 방이 없음(공간 없음)
-//        intArray[0] = 10;   // 0번지 방에 10번을 넣으니 null 에러가 발생
+        intArray[0] = 10;   // 0번지 방에 10번을 넣으니 null 에러가 발생
 
 //        객체에서 null 에러
-//        String str = null; // 권장 코딩 : String str="";
+        String str = null; // 권장 코딩 : String str="";
 //        문자열의 길이를 가져오는 함수 : 문자열.length()
-//        System.out.println("총 문자수: " + str.length()); // null 에러 발생
+        System.out.println("총 문자수: " + str.length()); // null 에러 발생
     }
 }

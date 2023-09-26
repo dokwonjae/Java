@@ -62,23 +62,25 @@ public class Sec0301 {
         System.out.println(result3);
     }
 
-    //    연습문제 : 1010 : 정수 1개를 입력받아 그대로 출력하기
+//    연습문제 : 1010 : 정수 1개를 입력받아 그대로 출력하기
 //    입력 : 5
+//    힌트 : .next(), .nextLine()
     public void exam05() {
         Scanner scanner = new Scanner(System.in);
-        int x = scanner.nextInt();
         System.out.println("정수를 입력해주세요");
-        System.out.println(x);
+        System.out.println(scanner.next());
     }
 
-    //    연습문제 : 1014 : 문자 2개 입력받아 순서 바꿔 출력하기(설명)
+//    연습문제 : 1014 : 문자 2개 입력받아 순서 바꿔 출력하기(설명)
 //    입력 : a b
 //    출력 : b a
+//    힌트 : .next()
     public void exam06() {
         Scanner scanner = new Scanner(System.in);
-        String x = scanner.next();
-        String y = scanner.next();
-        System.out.println(y +" " + x);
+        String strFirst = scanner.next(); // 공백까지 입력받기 #1
+        String strSecond = scanner.next(); // 공백까지 입력받기 #2
+
+        System.out.println(strSecond + " " + strFirst);
     }
 
     /**
@@ -87,27 +89,25 @@ public class Sec0301 {
     public void exam07() {
         char c1 = 'A' + 1; // char(정수) : 'B' ('A' 아스키코드(65) 65 + 1 = 66)
         char c2 = 'A';
-        char c3 = 97;
 //        출력 : sout
         System.out.println(c1);
         System.out.println(c2);
-        System.out.println(c3);
     }
+
 //    연습문제 3) char 이용하는 문제
 //    값이 'A' 로 주여져 있습니다. 'A' 대문자이면 대문자이군요 라고 출력하고
 //                                 소문자이면 소문자이군요 라고 출력하고
 //                                 숫자이면 숫자이군요 라고 출력하세요
     public void exam09() {
-
-        Scanner scanner = new Scanner(System.in);
         int charCode = 'A'; // 값이 주어져 있음 (65)
 //        TODO: 아래 코딩을 완성하세요
-        if (charCode>=65 && charCode<=90){
-            System.out.println("대문자이군요 " + charCode);
-        } else if (charCode >= 97 && charCode <= 122) {
-            System.out.println("소문자이군요 " + charCode);
-        }else if ((charCode >=48) && (charCode<=57)) {
-            System.out.println("숫자이군요" + charCode);
+//        아스키코드표 : 65 ~ 90 : 대문자
+        if((charCode>=65) && (charCode<=90)) {
+            System.out.println("대문자이군요");
+        } else if ((charCode>=97) && (charCode<=122)) {
+            System.out.println("소문자이군요");
+        } else if ((charCode>=48) && (charCode<=57)) {
+            System.out.println("숫자이군요");
         } else {
             System.out.println("다른 문자군요");
         }
@@ -116,14 +116,25 @@ public class Sec0301 {
     /**
      * 연습문제 : 정수 1개가 주어진다. 2와 3의 배수이면 2 또는 3의 배수이군요
      *                             아니면         2 또는 3의 배수가 아니군요
+     * 힌트 : % (나머지 연산자) == 0 배수임
      */
     public void exam10() {
-        int value = 8;
+        int value = 6;
 //        TODO: 아래 코딩을 완성하세요
-        if ((value % 2 == 0) || (value % 3 == 0)){
+        if((value%2==0) || (value%3==0)) {
             System.out.println("2 또는 3의 배수이군요");
-        }else {
+        } else {
             System.out.println("2 또는 3의 배수가 아니군요");
         }
     }
+
+
+
+
+
+
+
+
+
+
 }

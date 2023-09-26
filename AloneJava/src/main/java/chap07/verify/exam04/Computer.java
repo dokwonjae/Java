@@ -14,20 +14,17 @@ package chap07.verify.exam04;
  * 2023-09-21         GGG          최초 생성
  */
 public class Computer {
-
-    void turnOn(){
+    void turnOn() {
         System.out.println("전원을 켭니다.");
     }
-
-    void  displayOn(){
+    void displayOn() {
         System.out.println("화면을 켭니다.");
     }
-
-    void typeOn(){
+    void typeOn() {
         System.out.println("타이핑을 합니다.");
     }
-
-    void turnOff(){
+    void turnOff() {
         System.out.println("전원을 끕니다.");
     }
+
 }

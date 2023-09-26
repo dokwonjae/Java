@@ -5,7 +5,7 @@ package chap08.sec01.exam01;
  * fileName : Searchable
  * author : GGG
  * date : 2023-09-22
- * description :
+ * description : 검색 인터페이스
  * 요약 :
  * <p>
  * ===========================================================

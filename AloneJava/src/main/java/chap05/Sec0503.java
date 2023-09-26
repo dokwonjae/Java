@@ -7,7 +7,7 @@ import java.util.Calendar;
  * fileName : Sec0503
  * author : GGG
  * date : 2023-09-19
- * description :
+ * description : 열거형 사용
  * 요약 :
  * <p>
  * ===========================================================
@@ -19,11 +19,10 @@ public class Sec0503 {
     /**
      * 열거형 사용 예제
      */
-
     public void EnumWeek() {
 //        열거형 변수 정의
         Week today = null;
-        
+
 //      달력 객체 : Calendar
         Calendar calendar = Calendar.getInstance(); // 달력 객체 가져오기
         int week = calendar.get(Calendar.DAY_OF_WEEK); // 현재 요일(1 ~ 7 숫자)
@@ -44,6 +43,7 @@ public class Sec0503 {
             case 7:
                 today = Week.SATURDAY; break;
         }
+//         출력 : sout
         System.out.println("오늘 요일 :" + today);
     }
 }

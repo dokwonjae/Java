@@ -7,7 +7,6 @@ package chap11.sec01.exam02;
  * date : 2023-09-25
  * description :
  * 요약 :
- *      해쉬코드(hashCode) : 객체를 식별하는 유일한 정수값(번호 중복 없음)
  * <p>
  * ===========================================================
  * DATE            AUTHOR             NOTE
@@ -16,6 +15,6 @@ package chap11.sec01.exam02;
  */
 public class MemberApplication {
     public static void main(String[] args) {
-//        HashMap에서 테스트 :
+//        HashMap 에서 테스트 : hashCode 재정의하면 정렬이 잘됨
     }
 }

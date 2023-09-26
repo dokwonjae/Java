@@ -19,12 +19,12 @@ public class Member {
     public String name; // 이름
     public int age;     // 나이
 
-    //  2개짜리 생성자 : alt + insert
+//  2개짜리 생성자 : alt + insert
     public Member(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    //  TODO: 객체 비교 : .equals(), .hashCode, .toString() (속성) 재정의
+//  TODO: 객체 비교 : .equals(), .hashCode, .toString() (속성) 재정의
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -21,7 +21,7 @@ public class AnimalApplication {
 
         dog.sound();
         cat.sound();
-        System.out.println("-----------------------");
+        System.out.println("----------------------------");
 //        TODO: 2) 사용목적 : 다형성 이용
 //          사용법: 부모 객체 = new 자식생성자()
         Animal animal = new Dog();

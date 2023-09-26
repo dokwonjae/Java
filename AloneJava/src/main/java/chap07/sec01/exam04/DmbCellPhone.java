@@ -14,10 +14,10 @@ package chap07.sec01.exam04;
  * 2023-09-21         GGG          최초 생성
  */
 public class DmbCellPhone extends CellPhone{
-    //    속성
+//    속성
     int channel; // tv 채널 속성
 
-    //    생성자 : 부모 + 자식 속성 모두 : alt + insert
+//    생성자 : 부모 + 자식 속성 모두 : alt + insert
     public DmbCellPhone(String model, String color,  int channel) {
         this.model = model;    // 부모속성
         this.color = color;    // 부모속성

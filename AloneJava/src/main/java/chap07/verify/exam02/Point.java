@@ -14,11 +14,11 @@ package chap07.verify.exam02;
  * 2023-09-21         GGG          최초 생성
  */
 public class Point {
-    //    속성
+//    속성
     int x; // 3
     int y; // 4
 
-    //    함수 : set(3,4), showPoint()
+//    함수 : set(3,4), showPoint()
     void set(int x, int y) {
         this.x = x;
         this.y = y;

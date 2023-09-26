@@ -14,12 +14,12 @@ package chap06.sec03.verify.exam03;
  * 2023-09-20         GGG          최초 생성
  */
 public class Board {
-    //    TODO: 속성, 생성자, 함수
+//    TODO: 속성, 생성자, 함수
 //    속성 정의
     String title; // 제목
     String content; // 본문
     String writer; // 작성자
-    //    생성자
+//    생성자
     public Board(String title) {
         this.title = title;
     }

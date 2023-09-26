@@ -16,10 +16,10 @@ import java.util.Objects;
  * 2023-09-25         GGG          최초 생성
  */
 public class Student {
-    //    TODO: 속성, 생성자 , 함수
+//    TODO: 속성, 생성자 , 함수
     public int sno;     // 학번
     public String name; // 이름
-    //   TODO: 생성자(2개짜리 매개), 함수재정의 (3개 모두 만들기 : .equals(),.hashCode(),toString())
+//   TODO: 생성자(2개짜리 매개), 함수재정의 (3개 모두 만들기 : .equals(),.hashCode(),toString())
     public Student(int sno, String name) {
         this.sno = sno;
         this.name = name;

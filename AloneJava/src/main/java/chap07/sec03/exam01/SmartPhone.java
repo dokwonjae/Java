@@ -14,7 +14,7 @@ package chap07.sec03.exam01;
  * 2023-09-22         GGG          최초 생성
  */
 public class SmartPhone extends Phone{
-    //    생성자 : alt + insert
+//    생성자 : alt + insert
     public SmartPhone(String owner) {
         super(owner);
     }

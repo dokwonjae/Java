@@ -22,10 +22,10 @@ import java.util.Objects;
  * 2023-09-25         GGG          최초 생성
  */
 public class Member {
-    //    TODO: 속성, 생성자함수, 함수
+//    TODO: 속성, 생성자함수, 함수
 //      속성
     public String id;
-    //      생성자 : alt + insert
+//      생성자 : alt + insert
     public Member(String id) {
         this.id = id;
     }
@@ -39,8 +39,8 @@ public class Member {
 //        return Objects.equals(id, member.id); // 객체 속성 동등 비교
 //    }
 
-    //    TODO: (참고) 개발자 직접 코딩
-    @Override
+//    TODO: (참고) 개발자 직접 코딩
+        @Override
     public boolean equals(Object o) {
 
 //        1) 매개변수 o 객체가 Member 인가?
@@ -57,6 +57,7 @@ public class Member {
     }
 
 }
+
 
 
 

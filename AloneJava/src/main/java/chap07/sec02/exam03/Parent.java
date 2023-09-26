@@ -14,13 +14,11 @@ package chap07.sec02.exam03;
  * 2023-09-22         GGG          최초 생성
  */
 public class Parent {
-
     public String field1;
 
     public void method1() {
         System.out.println("부모 함수1");
     }
-
     public void method2() {
         System.out.println("부모 함수2");
     }

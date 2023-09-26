@@ -19,9 +19,9 @@ package chap07.verify.exam06;
 //    1234567
 public class StudentApplication {
     public static void main(String[] args) {
-        Student student = new Student("홍길동");
+        Student student = new Student("홍길동"); // 자식 생성자(매개 1개)
 
-        student.setId("1234567");
+        student.setId("1234567");   // setter : 속성명 String id(자식)
 
         System.out.println(student.getName());  // 홍길동
         System.out.println(student.getId());    // 1234567

@@ -18,6 +18,7 @@ package chap07.verify.exam11;
 //    대포의 살상 능력은 10
 public class OverridingApplication {
     public static void main(String[] args) {
+//      TODO: weapon.fire() : 리턴값이 잇는 함수
         Weapon weapon = new Weapon();
         System.out.println("기본 무기의 살상 능력은 " + weapon.fire());
 
@@ -26,3 +27,12 @@ public class OverridingApplication {
 
     }
 }
+
+
+
+
+
+
+
+
+

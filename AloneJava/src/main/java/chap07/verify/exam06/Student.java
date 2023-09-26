@@ -14,17 +14,21 @@ package chap07.verify.exam06;
  * 2023-09-21         GGG          최초 생성
  */
 public class Student extends Person{
-String id;
+    String id;
 
-    public Student(String name) {
-        this.name = name;
+    public Student() {
     }
 
-    public void setId(String id) {
-        this.id = id;
+    //    생성자 : alt + insert
+    public Student(String name) {
+        super(name);
     }
 
     public String getId() {
         return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }

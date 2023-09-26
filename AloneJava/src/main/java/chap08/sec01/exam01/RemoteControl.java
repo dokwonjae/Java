@@ -22,10 +22,10 @@ package chap08.sec01.exam01;
  * 2023-09-22         GGG          최초 생성
  */
 public interface RemoteControl {
-    //  TODO: 속성 == 정적(공유) 상수 (명명법 : 모두 대문자)
+//  TODO: 속성 == 정적(공유) 상수 (명명법 : 모두 대문자)
     int MAX_VOLUMN = 10;
     int MIN_VOLUMN = 1;
-    //  TODO: 함수 == 추상함수 (실행블럭{} 없음)
+//  TODO: 함수 == 추상함수 (실행블럭{} 없음)
     void turnOn(); // 리모콘 켜기 함수
     void turnOff(); // 리모콘 끄기 함수
 }

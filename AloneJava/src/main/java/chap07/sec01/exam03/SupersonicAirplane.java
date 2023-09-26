@@ -14,7 +14,7 @@ package chap07.sec01.exam03;
  * 2023-09-21         GGG          최초 생성
  */
 public class SupersonicAirplane extends Airplane {
-    //    속성 : 모드 바꿈 속성
+//    속성 : 모드 바꿈 속성
     public static final String NORMAL = "NORMAL";         // 공유(정적,전역) 상수
     public static final String SUPERSONIC = "SUPERSONIC";
 
@@ -34,6 +34,7 @@ public class SupersonicAirplane extends Airplane {
         }
     }
 }
+
 
 
 

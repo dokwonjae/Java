@@ -14,6 +14,7 @@ package chap07.verify.exam10;
  * 2023-09-22         GGG          최초 생성
  */
 public class Circle extends Shape{
+//    alt + insert
     @Override
     public void draw() {
         System.out.println("Circle");

@@ -13,7 +13,7 @@ package chap07.verify.exam10;
  * —————————————————————————————
  * 2023-09-22         GGG          최초 생성
  */
-public class Line extends  Shape{
+public class Line extends Shape{
     @Override
     public void draw() {
         System.out.println("Line");

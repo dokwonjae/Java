@@ -18,7 +18,7 @@ package chap05;
  * 2023-09-19         GGG          최초 생성
  */
 public enum Week {
-    //    월,화,수,목,금,토,일 정의(상수)
+//    월,화,수,목,금,토,일 정의(상수)
     MONDAY,
     TUESDAY,
     WEDNESDAY,

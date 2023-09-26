@@ -14,7 +14,7 @@ package chap06.sec04.verify.exam04;
  * 2023-09-20         GGG          최초 생성
  */
 public class Printer {
-    //    TODO: 속성, 생성자함수 , 함수(메소드)
+//    TODO: 속성, 생성자함수 , 함수(메소드)
 //    속성, 생성자함수 생략
 //    함수 : 오버로딩 기능
 //    .println(10), .println(true), .println(5.7), .println("홍길동")

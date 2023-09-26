@@ -13,7 +13,8 @@ package chap07.verify.exam11;
  * —————————————————————————————
  * 2023-09-22         GGG          최초 생성
  */
-public class Cannon extends Weapon {
+public class Cannon extends Weapon{
+//    alt + insert
     @Override
     int fire() {
         return 10;

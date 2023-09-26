@@ -32,7 +32,6 @@ public class ArrayListApplication {
         System.out.println(students.get(0)); // 0번 출력
 //      TODO: 객체 자료 삭제
         students.remove(0);
-        System.out.println(students);
 
     }
 }

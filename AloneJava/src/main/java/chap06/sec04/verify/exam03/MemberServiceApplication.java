@@ -22,6 +22,7 @@ package chap06.sec04.verify.exam03;
  * // login() 함수는 매개값 id가 "hong", 매개값 password 가 "12345" 일 경우에만 true 로 리턴하고,
  * // 그 이외의 값일 경우에는 false 를 리턴하세요.
  * // logout() 함수의 내용은 "hong이 로그아웃 되었습니다."가 출력되도록 하세요.
+ * // TODO: 힌트 : 함수 형태
  * // 리턴타입 : boolean, 함수명 : login, 매개변수타입 : id(String), password(String)
  * // 리턴타입 : void, 함수명 : logout, 매개변수타입 : id(String)
  * // 결과 :

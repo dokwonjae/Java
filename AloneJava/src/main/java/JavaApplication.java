@@ -11,8 +11,6 @@ import chap04.Verify04;
 import chap05.Sec0501;
 import chap05.Sec0502;
 import chap05.Sec0503;
-import chap05.Verify05;
-import codingtest.Programmers;
 
 /**
  * packageName : PACKAGE_NAME
@@ -82,27 +80,27 @@ public class JavaApplication {
          * 섹션 4-1장 : 조건문
          */
 //        Sec0401 sec0401 = new Sec0401();
-//        sec0401.exam01();
-//        sec0401.exam04();
+////        sec0401.exam01();
+////        sec0401.exam04();
 //        sec0401.exam08();
 
         /**
          * 4-2장 : 반복문
          */
 //        Sec0402 sec0402 = new Sec0402();
-//        sec0402.exam01();
-//        sec0402.exam02();  // 5050
-//        sec0402.exam08();  // 5050
-//        sec0402.exam09();  // 5050
+////        sec0402.exam01();
+////        sec0402.exam02();  // 5050
+////        sec0402.exam08();  // 5050
+////        sec0402.exam09();  // 5050
 //        sec0402.exam10();  // 5050
 
         /**
          * 4장 연습문제 : 조건문/반복문
          */
 //        Verify04 verify04 = new Verify04();
-//        verify04.exam02();  // 1683
-//        verify04.exam03();
-//        verify04.exam04();
+////        verify04.exam02();  // 1683
+////        verify04.exam03();
+////        verify04.exam04();
 //        verify04.exam05();
 
         /**
@@ -111,22 +109,20 @@ public class JavaApplication {
 //        Sec0501 sec0501 = new Sec0501();
 //        sec0501.stringEqualExam();
 
-        Sec0502 sec0502 = new Sec0502();
-//        sec0502.getStudent();
-//        sec0502.arrayFunc();
-//        sec0502.arrayTwo();
+        /**
+         * 5-2장 배열
+         */
+//        Sec0502 sec0502 = new Sec0502();
+////        sec0502.getStudent();
+////        sec0502.arrayFunc();
+////        sec0502.arrayTwo();
+////        sec0502.copyArray();
+////        sec0502.AdvancedExam();'
 
+        /**
+         * 5-3 열거형
+         */
         Sec0503 sec0503 = new Sec0503();
-//        sec0503.EnumWeek();
-
-        Verify05 verify05 = new Verify05();
-//        verify05.exam04();
-//        verify05.exam05();
-
-        Programmers programmers = new Programmers();
-//        programmers.exam05();
-//        programmers.exam06();
-//        programmers.exam07();
-        programmers.exam08();
+        sec0503.EnumWeek();
     }
 }

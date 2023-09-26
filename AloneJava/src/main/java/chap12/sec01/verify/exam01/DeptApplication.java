@@ -1,6 +1,5 @@
 package chap12.sec01.verify.exam01;
 
-
 import java.util.List;
 
 /**
@@ -27,6 +26,7 @@ public class DeptApplication {
         DeptDao deptDao = new DeptDao();
         List<Dept> deptList = deptDao.createDept(); // 자료 생성
 
+//        결과 출력 : 반복문(향상된 for문)
         for(Dept dept : deptList) {
             System.out.println(dept.getDno() + " " + dept.getDname()
                     + " " + dept.getLoc());

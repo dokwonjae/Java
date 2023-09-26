@@ -17,7 +17,8 @@ public class CalculatorApplication {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
 
-//        함수의 오버로딩을 이용한 예제
+//        TODO: 함수의 오버로딩을 이용한 예제
+//              Calculator 클래스 함수 2개 : areaRectangle(), areaRectangle(,)
 //        정사각형의 넓이 구하기(한변의 길이(가로) * 한변의 길이(가로))
         double result1 = calculator.areaRectangle(10);
 

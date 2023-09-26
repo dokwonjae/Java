@@ -13,9 +13,10 @@ package chap07.verify.exam09;
  * —————————————————————————————
  * 2023-09-22         GGG          최초 생성
  */
-public class ColorPrinter extends Printer {
+public class ColorPrinter extends Printer{
+//    alt + insert
     @Override
     public void print() {
-        System.out.println("컬러프린터로 업그레이드 했습니다");
+        System.out.println("컬러프린터로 업그레이드 했습니다.");
     }
 }

@@ -5,7 +5,7 @@ package chap07.sec02.exam01;
  * fileName : Parent
  * author : GGG
  * date : 2023-09-22
- * description :
+ * description : 부모 클래스
  * 요약 :
  * <p>
  * ===========================================================
@@ -18,6 +18,6 @@ public class Parent {
         System.out.println("부모 method1 ");
     }
     public void method2() {
-        System.out.println("부모 method2");
+        System.out.println("부모 method2 ");
     }
 }

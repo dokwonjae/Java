@@ -54,10 +54,10 @@ public class Sec0502 {
      * 예제 2: 배열에서 함수의 매개변수로 전달시 주의점
      */
     public void arrayFunc() {
-        int[] scores = {84, 91, 88};
+        int[] scores = {84, 91, 88}; // 100
 
         int sum2 = add(scores); // ok ,가능
-//        이렇게 하면 안됨
+//        TODO: 이렇게 하면 안됨
 //        int sum3 = add({84, 91, 88}); // 에러 발생
 //        참고)
         int sum4 = add(new int[]{84, 91, 88}); // 가능
@@ -78,7 +78,6 @@ public class Sec0502 {
      * arrayTwo
      * 배열의 2번째 정의 방법
      */
-    
     public void arrayTwo() {
         int[] arr1 = new int[3]; // 배열의 정의(선언) : 빈방 만들기(메모리)
 //        정수 : 기본값(0), 문자열: null, 실수 : 0.0 등
@@ -90,8 +89,8 @@ public class Sec0502 {
 //        for (int i = 0; i < 3; i++) {
 //            System.out.println(arr1[i]); // 배열 값 출력
 //        }
-//        TODO: 배열 안에 값을 간단히 확인하기
-//        사용법 : Arrays.toString(배열변수)
+//      TODO: 배열 안에 값을 간단히 확인하기
+//      사용법 : Arrays.toString(배열변수)
         System.out.println(Arrays.toString(arr1));
     }
 
@@ -135,3 +134,12 @@ public class Sec0502 {
         System.out.println("점수 평균 : " + avg);
     }
 }
+
+
+
+
+
+
+
+
+
