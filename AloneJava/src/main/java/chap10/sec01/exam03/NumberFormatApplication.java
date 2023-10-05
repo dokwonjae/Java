@@ -21,7 +21,7 @@ public class NumberFormatApplication {
         String data2 = "a100";
 //       TODO: 문자열 -> 숫자로 변경 : Integer.parseInt()
         int value1 = Integer.parseInt(data1);
-        int value2 = Integer.parseInt(data2);
+        int value2 = Integer.parseInt(data2); // a100 숫자 변환 안됨
         System.out.println(data1 + " " + data2);
 
     }

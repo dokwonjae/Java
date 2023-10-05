@@ -8,7 +8,7 @@ import java.io.Reader;
  * fileName : ReadApplication
  * author : GGG
  * date : 2023-09-27
- * description :
+ * description : 1 문자씩 읽기
  * 요약 :
  * <p>
  * ===========================================================
@@ -18,11 +18,11 @@ import java.io.Reader;
  */
 public class ReadApplication {
     public static void main(String[] args) throws Exception {
-//      TODO: 파일 읽기용(입력용)으로 열기
+//      TODO: 파일 읽기용(입력용)으로 접근
         Reader reader = new FileReader("src/main/resources/test7.txt");
 //      TODO: 무한 반복문 실행
         while (true) {
-//            TODO: 1문자씩 읽기 => 리턴 : 아스키코드값이 리턴됨
+//            TODO: 1문자씩 읽기(자동증가) => 리턴 : 아스키코드값이 리턴됨
             int data = reader.read();
 //            TODO: 종료 조건 : 파일의 끝 : -1
             if(data == -1) break;

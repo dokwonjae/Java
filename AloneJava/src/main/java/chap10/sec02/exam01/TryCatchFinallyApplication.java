@@ -22,6 +22,7 @@ public class TryCatchFinallyApplication {
     public static void main(String[] args) {
 //        TODO: 에러 처리 : try ~ catch 구문 이용
 //         사용법 : try { 실행문; } catch(에러클래스 변수) {에러처리실행문;}
+//           => (설명) try 의 실행문이 실행될때 에러가 발생하면 catch 실행문이 실행됨
         try {
 //            Class.forName(클래스명) : 클래스명에 해당되는 자바클래스를 리턴
             Class clazz = Class.forName("String2"); // 에러 발생

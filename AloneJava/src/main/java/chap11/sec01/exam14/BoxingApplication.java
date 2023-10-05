@@ -29,7 +29,7 @@ public class BoxingApplication {
 //         현대 방식
         Integer obj2 = 100; // 자동 변환
 
-//      TODO: UnBoxing
+//      TODO: UnBoxing : 래퍼 클래스 -> 기본자료형 변환
 //        과거 방식
         int value1 = obj1.intValue(); // 원복 (함수호출)
 //        현대 방식

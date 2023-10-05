@@ -26,7 +26,7 @@ public class ReadApplication {
         while (true) {
 //      TODO: 파일 읽기(1byte) => 리턴 : 읽은 값이(1byte) 리턴됨(1byte씩 자동증가)
 //                                 => 읽은 값이 파일의 끝이라면 -1 리턴됨
-            int data = inputStream.read();
+             int data = inputStream.read();
 //      TODO: 반복문 종료 조건 : 파일의 끝
             if(data == -1) break;
 //      TODO: 화면 출력

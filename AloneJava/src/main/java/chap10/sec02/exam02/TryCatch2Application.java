@@ -43,6 +43,7 @@ public class TryCatch2Application {
         } catch (NumberFormatException e) {
             System.out.println("숫자로 변환할 수 없습니다.");
         } finally {
+//          TODO: finally : 에러 유무와 상관없이 무조건 실행되는 블럭
             System.out.println("다시 실행하세요");
         }
 

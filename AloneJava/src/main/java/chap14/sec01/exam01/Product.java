@@ -1,11 +1,11 @@
 package chap14.sec01.exam01;
 
 /**
- * packageName : chap14.exam01
+ * packageName : jungsuk.chap12
  * fileName : Audio
  * author : kangtaegyung
  * date : 2023/04/05
- * description : 부모 클래스
+ * description :
  * 요약 :
  * <p>
  * ===========================================================

@@ -5,7 +5,7 @@ package chap11.sec01.exam05;
  * fileName : Car
  * author : GGG
  * date : 2023-09-26
- * description :
+ * description : Car 클래스
  * 요약 :
  * <p>
  * ===========================================================

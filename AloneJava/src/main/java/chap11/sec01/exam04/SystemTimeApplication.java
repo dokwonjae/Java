@@ -5,7 +5,7 @@ package chap11.sec01.exam04;
  * fileName : SystemTimeApplication
  * author : GGG
  * date : 2023-09-26
- * description :
+ * description : System 객체 : 소요시간 체크 .nanoTime()
  * 요약 :
  * <p>
  * ===========================================================
@@ -17,7 +17,7 @@ public class SystemTimeApplication {
     public static void main(String[] args) {
 //        1) 처음 시간 체크 (컴퓨터 설정된 현재시간)
         long time = System.nanoTime(); // 1/10^9 시간
-//        2) 실행
+//        2) TODO: 실행문
         int sum = 0;
         for (int i = 1; i <= 1000000; i++) {
             sum += i; //누적합

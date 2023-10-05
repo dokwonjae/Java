@@ -18,8 +18,8 @@ import java.io.*;
  *         => OutputStreamWriter, InputStreamReader
  *      2) 성능 향상 : 기본적으로 제공하는 버퍼는 크기가 작음
  *         => ButteredOutputStream/BufferedInputStream
- *      3) 기본자료형 입출력 : InputStream/OutputStream 1 byte,
- *         => DataInputStream/DataOutputStream
+ *      3) 기본자료형 입출력 : InputStream/OutputStream 1 byte, 
+ *         => DataInputStream/DataOutputStream 
  *         => 기본자료형 int, double, String 자료형을 사용해서 입출력할 수 있음
  * <p>
  * ===========================================================
@@ -28,10 +28,11 @@ import java.io.*;
  * 2023-09-27         GGG          최초 생성
  */
 public class CharConvertApplication {
-    //    파일 쓰기 함수
+//    파일 쓰기 함수
     public static void write(String str) throws Exception {
 //      TODO: byte 파일 쓰기용 파일생성
-        FileOutputStream fos = new FileOutputStream("src/main/resources/test1.txt");
+        FileOutputStream fos
+                = new FileOutputStream("src/main/resources/test1.txt");
 
 //      TODO: 보조 스트림 사용 : 문자기반 객체로 변환 : new 보조스트림(기본스트림)
         Writer writer = new OutputStreamWriter(fos);
@@ -41,7 +42,7 @@ public class CharConvertApplication {
         writer.close();
     }
 
-    //    파일 읽기 함수
+//    파일 읽기 함수
     public static String read() throws Exception {
 //        TODO: 여기부터 코딩
 //      TODO: 파일을 읽기용으로 접근(기본스트림)

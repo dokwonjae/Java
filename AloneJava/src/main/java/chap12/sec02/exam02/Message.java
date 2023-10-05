@@ -14,10 +14,10 @@ package chap12.sec02.exam02;
  * 2023-09-26         GGG          최초 생성
  */
 public class Message {
-    //  TODO: 속성
+//  TODO: 속성
     public String command; // 명령어
     public String to;      // 누구?
-    //  TODO: 생성자 2개
+//  TODO: 생성자 2개
     public Message() {
     }
 
@@ -26,6 +26,7 @@ public class Message {
         this.to = to;
     }
 }
+
 
 
 

@@ -56,8 +56,6 @@ public class CollectionsApplication {
 
 //      TODO: 7) 이진탐색(미리 오름차순하고 실행) :
 //          Collections.binarySearch(list, 찾을값) => 리턴: 인덱스번호
-        Collections.sort(list);
-        System.out.println(Collections.binarySearch(list, 3));
 
 //      TODO: 8) 최대값 /최소값 찾기
         System.out.println("--- 최대값 /최소값 찾기 ---");

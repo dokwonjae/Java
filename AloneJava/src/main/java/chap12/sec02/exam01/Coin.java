@@ -15,7 +15,7 @@ package chap12.sec02.exam01;
  */
 public class Coin {
     private int value;
-    //  TODO: 기본생성자/풀 속성 생성자, setter/getter 함수
+//  TODO: 기본생성자/풀 속성 생성자, setter/getter 함수
     public Coin() {
     }
 

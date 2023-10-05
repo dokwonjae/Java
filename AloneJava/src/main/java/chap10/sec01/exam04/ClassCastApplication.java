@@ -25,7 +25,7 @@ public class ClassCastApplication {
         changeDog(cat); // 에러 : why? 강아지 객체를 넣어야함
 
     }
-    //    공유 함수
+//    공유 함수
     public static void changeDog(Animal animal) {
 //        강제 형변환 : Dog
         Dog dog = (Dog)animal;

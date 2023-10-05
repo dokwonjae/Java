@@ -13,7 +13,7 @@ package chap11.sec01.exam11;
  * —————————————————————————————
  * 2023-09-26         GGG          최초 생성
  */
-public class ReplaceApplication {
+public class ReplaceApplicatioin {
     public static void main(String[] args) {
 //      자바 API : 자바의 유용한 함수 묶음
         String oldStr = "자바는 객체지향언어입니다. 자바는 풍부한 API도 지원합니다.";

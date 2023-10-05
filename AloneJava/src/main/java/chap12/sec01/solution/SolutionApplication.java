@@ -28,10 +28,8 @@ public class SolutionApplication {
          * 10	3	[3, 6, 9]
          * 15	5	[5, 10, 15]
          */
-//        Solution solution = new Solution();
-//        int answer = solution.solution([3, 4, 5, 2, 1]);
-//        List<Integer> answer = solution.solution100(10, 3);
-//        System.out.println(answer);
-
+        Solution solution = new Solution();
+        List<Integer> answer = solution.solution100(10, 3);
+        System.out.println(answer);
     }
 }

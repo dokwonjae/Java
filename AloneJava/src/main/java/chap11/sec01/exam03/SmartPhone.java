@@ -14,10 +14,10 @@ package chap11.sec01.exam03;
  * 2023-09-26         GGG          최초 생성
  */
 public class SmartPhone {
-    //  TODO: 속성
+//  TODO: 속성
     private String company; // 제조사
     private String os;      // ( 안드로이드, iOS )
-    //  TODO: 생성자
+//  TODO: 생성자
     public SmartPhone() {
     }
 
@@ -25,7 +25,7 @@ public class SmartPhone {
         this.company = company;
         this.os = os;
     }
-    //  TODO: toString() 재정의 : 객체의 속성을 화면에 출력할 수 있음 : alt + insert
+//  TODO: toString() 재정의 : 객체의 속성을 화면에 출력할 수 있음 : alt + insert
     @Override
     public String toString() {
         return "SmartPhone{" +

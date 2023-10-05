@@ -23,7 +23,7 @@ public class ReadLineApplication {
         Reader reader
                 = new FileReader("src/main/resources/language.txt");
 
-//      TODO: 보조스트림 : new 보조스트림(기본스트림)
+//      TODO: 보조스트림 : new 보조스트림(기본스트림) : 성능향상
         BufferedReader bufferedReader
                 = new BufferedReader(reader);
 //      TODO: BufferedReader 클래스 : .readLine() : 1줄씩 읽기

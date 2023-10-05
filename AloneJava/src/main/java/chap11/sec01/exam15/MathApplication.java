@@ -51,6 +51,6 @@ public class MathApplication {
         double temp = value * 100;     // 1)
         long temp2 = Math.round(temp); // 2)
         double v16 = temp2/100.0;      // 3)
-        System.out.println("v16=" + v16);
+        System.out.println("v16=" + v16); // 12.35
     }
 }

@@ -35,6 +35,5 @@ public class ReadApplication {
             }
         }
         inputStream.close(); // 파일 닫기
-
     }
 }

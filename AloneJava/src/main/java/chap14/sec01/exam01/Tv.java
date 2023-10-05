@@ -3,11 +3,11 @@ package chap14.sec01.exam01;
 import java.util.Objects;
 
 /**
- * packageName : chap14.exam01
+ * packageName : jungsuk.chap12
  * fileName : Tv
  * author : kangtaegyung
  * date : 2023/04/05
- * description : 자식 클래스
+ * description :
  * 요약 :
  * <p>
  * ===========================================================

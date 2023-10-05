@@ -21,7 +21,7 @@ public class ThrowsApplication {
             System.out.println("클래스가 존재하지 않습니다.");
         }
     }
-    //    공유(정적)함수
+//    공유(정적)함수
 //   TODO: 리턴자료형 함수명() throws 에러클래스
 //     => 함수 내에서 에러처리 안하고 이 함수를 호출하는 쪽에 에러처리를 떠넘기기
     public static void findClass() throws ClassNotFoundException {

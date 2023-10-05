@@ -37,8 +37,6 @@ public class Student {
         return name;
     }
 //    재정의 함수 : .equals(), .hashCode(), toString()
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
